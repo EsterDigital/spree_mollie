@@ -24,13 +24,6 @@
           <%= Spree.t(:mollie_creditcard_description) %>
         </label>
       </p>
-      <p>
-        <label>
-          <%= radio_button_tag "order[payments_attributes][][payment_method_id]", "banktransfer" %>
-          <strong><%= Spree.t(:mollie_banktransfer) %></strong>
-          <%= Spree.t(:mollie_banktransfer_description) %>
-        </label>
-      </p>
     </div>
     <br style="clear:both;" />
     <p class='field' data-hook='coupon_code'>
